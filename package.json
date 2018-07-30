@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/timohausmann/quadtree-js.git"
+    "url": "https://github.com/danielmoniz/quadtree-js.git"
   },
   "keywords": [
     "quadtree"
   ],
-  "author": "Timo Hausmann",
+  "author": "Timo Hausmann (minor updates by Daniel Moniz)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timohausmann/quadtree-js/issues"
+    "url": "https://github.com/danielmoniz/quadtree-js/issues"
   },
   "devDependencies": {
     "grunt": "~0.4.4",
