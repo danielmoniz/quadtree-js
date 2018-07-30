@@ -29,14 +29,6 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-var isBrowser=new Function("try {return this===window;}catch(e){ return false;}");
-var isNode=new Function("try {return this===global;}catch(e){return false;}");
-if (isBrowser()) {
-  var global = window
-} else if (!isNode()) {
-  console.log('Must be run in browser or node.js! Where are you running this?');
-}
-
 ;(function(global, Math) {
 
 	 /*
