@@ -29,7 +29,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-;(function(global, Math) {
+; module.exports = (function(Math) {
 
 	 /*
 	  * Quadtree Constructor
@@ -224,7 +224,6 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 		this.nodes = [];
 	};
 
-	//make Quadtree available in the global namespace
-	global.Quadtree = Quadtree;
+  return Quadtree
 
-})(global, Math);
+})(Math);
